@@ -44,6 +44,12 @@ display: table;
 clear: both;
 }
 
+@media (max-width: 600px) {
+    .column.side, .column.middle, .column.side {
+        width: 100%;
+    }
+}
+
 a {
 text-decoration:none;
 font-family:sans-serif;
@@ -81,7 +87,22 @@ background-color: #ba851e;
 box-shadow: 10px 10px 5px #888888;
 }
 
+l3 {
+background-color: #161664;
+color: white;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-family:sans-serif;
+border-color:transparent;
+border-width:.25%;
+border-radius:12px;
+}
 
+l3:hover, l3:active {
+background-color: #0D0D3C;
+box-shadow: 10px 10px 5px #888888;
+}
 body {
 font-family:sans-serif;
 }
@@ -98,20 +119,43 @@ font-family:sans-serif;
 
 
 <div class ="header">
-<h1>Ethan Neuhoff</h1>
-<br>
+  <h1>Ethan Neuhoff</h1>
+  <br>
 </div>
-<div class="row">
-<div class="column side">
-<l2> <a href="portfolio.html#1.1.1">1.1.1</a></l2><br><l2><a href="portfolio.html#1.1.2">1.1.2</a></l2><br><l2><a href="portfolio.html#1.1.3">1.1.3</a></l2><br><l2><a href="portfolio.html#1.1.4">1.1.4</a></l2><br><l2><a href="portfolio.html#1.1.5">1.1.5</a></l2><br><l2><a href="portfolio.html#1.1.6">1.1.6</a></l2><br><l2><a href="portfolio.html#1.1.7">1.1.7</a></l2><br><l2><a href="portfolio.html#1.2.2 Reflection">1.2.2</a></l2><br><l2><a href="portfolio.html#1.2.3 Reflection">1.2.3</a></l2>
 
+<div class="row">
+
+<div class="column side">
+  <l2> <a href="portfolio.html#1.1.1">1.1.1</a></l2><br><l2><a href="portfolio.html#1.1.2">1.1.2</a></l2><br><l2><a href="portfolio.html#1.1.3">1.1.3</a></l2><br><l2><a href="portfolio.html#1.1.4">1.1.4</a></l2><br><l2><a href="portfolio.html#1.1.5">1.1.5</a></l2><br><l2><a href="portfolio.html#1.1.6">1.1.6</a></l2><br><l2><a href="portfolio.html#1.1.7">1.1.7</a></l2><br><l2><a href="portfolio.html#1.2.2 Reflection">1.2.2</a></l2><br><l2><a href="portfolio.html#1.2.3 Reflection">1.2.3</a></l2>
 </div>
+
+<div class="column middle">
+  <l3><a href="portfolio.html">
+    <img src="images/portfolio.jpg" height="67">
+    <h1>Portfolio</h1>
+  </a></l3>
+  <l3><a href="aboutme.html">
+    <img src="images/graphic.jpg" height="67">
+    <h1>About Me</h1>
+  </a></l3>
+  <l3><a href="https://app.stempremier.com/profile/194541?accessCode=AU%2FnS6B095sMiKczDZEQOoyrGqIRs8iksuSKADwgTHoi5cB7TZ1%2B4sG9tCLDKPZT">
+    <img src="images/stempremier.png" height="89">
+    <h1>STEP Premier</h1>
+  </a></l3>
+</div>
+
+<div class="column side">
+  <l2><a href="https://app.stempremier.com/profile/194541?accessCode=AU%2FnS6B095sMiKczDZEQOoyrGqIRs8iksuSKADwgTHoi5cB7TZ1%2B4sG9tCLDKPZT">
+  STEM  
+  </a></l2>
+</div>
+
 </div>
 <br>
 
 
 <div class ="footer">
-<h2>Ethan Neuhoff, 2017-2018 CSP Course Website.</h2>
+  <h2>Ethan Neuhoff, 2017-2018 CSP Course Website.</h2>
 </div>
 
 </body>
